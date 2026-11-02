@@ -1,0 +1,117 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "builtin",
+    "source": "arch",
+    "color": {
+      "1": "#7aa2f7",
+      "2": "#ad8ee6"
+    },
+    "padding": {
+      "top": 1,
+      "right": 10
+    }
+  },
+  "display": {
+    "brightColor": false,
+    "disableLinewrap": true,
+    "separator": "  ",
+    "key": {
+      "type": "icon"
+    },
+    "color": {
+      "keys": "#7aa2f7",
+      "title": "#7aa2f7",
+      "output": "#a9b1d6",
+      "separator": "#565f89"
+    },
+    "percent": {
+      "type": [
+        "num"
+      ]
+    }
+  },
+  "modules": [
+    "break",
+    "title",
+    {
+      "type": "separator",
+      "string": "─",
+      "times": 28,
+      "outputColor": "#565f89"
+    },
+    {
+      "type": "host",
+      "keyIcon": ""
+    },
+    {
+      "type": "cpu",
+      "keyIcon": "",
+      "showPeCoreCount": true
+    },
+    {
+      "type": "gpu",
+      "keyIcon": "󰢮",
+      "detectionMethod": "pci",
+      "format": "{name}"
+    },
+    {
+      "type": "display",
+      "keyIcon": "󰍹"
+    },
+    {
+      "type": "memory",
+      "keyIcon": ""
+    },
+    {
+      "type": "disk",
+      "keyIcon": "󰋊",
+      "folders": "/"
+    },
+    "break",
+    {
+      "type": "os",
+      "keyIcon": "",
+      "keyColor": "#ad8ee6"
+    },
+    {
+      "type": "kernel",
+      "keyIcon": "",
+      "keyColor": "#ad8ee6"
+    },
+    {
+      "type": "wm",
+      "keyIcon": "",
+      "keyColor": "#ad8ee6"
+    },
+    {
+      "type": "shell",
+      "keyIcon": "",
+      "keyColor": "#ad8ee6"
+    },
+    {
+      "type": "terminal",
+      "keyIcon": "",
+      "keyColor": "#ad8ee6"
+    },
+    {
+      "type": "packages",
+      "keyIcon": "󰏖",
+      "keyColor": "#ad8ee6"
+    },
+    "break",
+    {
+      "type": "custom",
+      "key": "Theme",
+      "keyIcon": "󰏘",
+      "keyColor": "#449dab",
+      "format": "tokyo-night"
+    },
+    {
+      "type": "uptime",
+      "keyIcon": "󰥔",
+      "keyColor": "#449dab"
+    },
+    "break"
+  ]
+}

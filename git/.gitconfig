@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[user]
+	name = jrtilak
+	email = contact@jrtilak.dev
+[core]
+	editor = nvim
